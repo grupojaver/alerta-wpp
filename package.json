@@ -1,7 +1,6 @@
 {
-  "name": "alerta-wpp",
+  "name": "alerta-correo-wpp",
   "version": "1.0.0",
-  "description": "Bot de alertas por correo con notificación a WhatsApp",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,7 +9,8 @@
   "dependencies": {
     "dotenv": "^16.4.0",
     "imap": "^0.8.19",
-    "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.25.0"
+    "mailparser": "^3.6.7",
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0"
   }
 }
