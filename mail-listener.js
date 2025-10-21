@@ -41,7 +41,7 @@ export async function iniciarEscuchaCorreo () {
           console.log('🎯 ¡Email objetivo! Enviando a WhatsApp...');
           await enviarAlertaWhatsApp(subject);
         } else {
-          console.log('📭 Email ignorado (no contiene "Nueva lista de precios")');
+          console.log('📭 Email ignorado (no contiene "actualización de precios")');
         }
       }
     });
